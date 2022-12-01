@@ -10,9 +10,9 @@ const SAFE_EXTENSION_SITES = [
     // Be careful adding entries to this list.
     // Each entry MUST have a trailing / after the domain for this to provide any security.
     'https://extensions.turbowarp.org/',
-
+    'https://api.albloh2.repl.co/',
     // For development.
-    'http://localhost/'
+    'http://localhost:8000/'
 ];
 
 class TWSecurityManagerComponent extends React.Component {
