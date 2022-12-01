@@ -12,7 +12,7 @@ const SAFE_EXTENSION_SITES = [
     'https://extensions.turbowarp.org/',
 
     // For development.
-    'http://localhost:8000/'
+    'http://localhost/'
 ];
 
 class TWSecurityManagerComponent extends React.Component {
